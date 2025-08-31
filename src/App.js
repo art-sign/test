@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import image1 from './Utils/Photo.jpeg'
+import image2 from './Utils/image2.jpeg'
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         >
          <img src={image1} alt="Logo" width="70%"/>
          <br/>
-            Anith Test Page
+           <img src={image2} width="70%"/>
         </a>
       </header>
     </div>
